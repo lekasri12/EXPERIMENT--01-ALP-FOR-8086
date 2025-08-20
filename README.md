@@ -97,26 +97,27 @@ HLT
 ```
 MOV AX, 53H
 MOV BX, 24H
-MUL AX
+MUL BX
 HLT
 
 ```
 
  ## Output : 
-<img width="1918" height="1075" alt="Screenshot 2025-08-20 102723" src="https://github.com/user-attachments/assets/dbb05153-2802-4fa4-916a-fdfa299c1ab9" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-20 114228" src="https://github.com/user-attachments/assets/e32c3dfc-16bf-49c9-96c4-921ef00bdfe0" />
 
 
 ## Division alp :
 ```
 MOV AX, 12H
 MOV BX, 24H
-DIV AX
+DIV BX
 HLT
 
 ```
 
 ## Output  :
-<img width="1919" height="1079" alt="Screenshot 2025-08-20 102911" src="https://github.com/user-attachments/assets/f467eabe-04a5-4e26-9ff3-71480dcc46f2" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-20 114312" src="https://github.com/user-attachments/assets/0459f3bc-1b23-4c48-83ab-e0d484be0ac5" />
+
 
 ## PROGRAM FOR LOGICAL OPERATIONS
 ## AND:
